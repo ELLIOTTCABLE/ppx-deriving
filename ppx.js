@@ -2,9 +2,9 @@
 
 "use strict"
 
-var spawn = require("child_process").spawn,
-   path = require("path"),
-   name = require("package.json").name
+var NAME = require("./package.json").name,
+   spawn = require("child_process").spawn,
+   path = require("path")
 
 // I have concerns about this. This has to invoke `bsc` to determine the associated
 // version of OCaml (because ppxes have to be compiled for the version of the compiler
@@ -20,7 +20,7 @@ var spawn = require("child_process").spawn,
 //
 // Open an Issue if this impacts you, maybe we can come up with a better solution.
 var current_ppx_id = require("./identify"),
-   bin = path.join(__dirname, name + "-" + current_ppx_id, "ppx.exe"),
+   bin = path.join(__dirname, NAME + "-" + current_ppx_id, "ppx.exe"),
    input = process.argv.slice(2)
 
 input.unshift("--as-ppx")
