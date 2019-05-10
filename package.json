@@ -1,0 +1,53 @@
+{
+   "name": "ppx-deriving",
+   "version": "42.1.0-pre.0",
+   "description": "Binary wrapper for bs-deriving - Type-driven code generation for OCaml and BuckleScript.",
+   "license": "MIT",
+   "author": "ELLIOTTCABLE <npm@ell.io>",
+   "bin": {
+      "ppx": "ppx.js"
+   },
+   "dependencies": {
+      "arch": "^2.1.1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ELLIOTTCABLE/bs-deriving.git"
+   },
+   "bugs": {
+      "url": "https://github.com/ELLIOTTCABLE/bs-deriving/issues"
+   },
+   "homepage": "https://github.com/ELLIOTTCABLE/bs-deriving#readme",
+   "scripts": {
+      "test": "make test",
+      "verify": "shasum -c SHASUM256.txt"
+   },
+   "engines": {
+      "node": ">=0.10.0"
+   },
+   "files": [
+      "ppx-deriving-v*-*-*-*/ppx.exe",
+      "vendor",
+      "ppx.js",
+      "identify.js",
+      "bsconfig.json",
+      "SHASUM256.txt"
+   ],
+   "keywords": [
+      "BuckleScript",
+      "ReasonML",
+      "OCaml",
+      "CLI",
+      "bin",
+      "binary",
+      "PPX",
+      "AST",
+      "transpiler",
+      "tool",
+      "codegen",
+      "functional",
+      "types",
+      "static-typing",
+      "wrapper"
+   ]
+}
