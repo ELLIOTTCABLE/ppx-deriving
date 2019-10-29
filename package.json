@@ -1,6 +1,6 @@
 {
    "name": "ppx-deriving",
-   "version": "44.0.0",
+   "version": "44.1.0",
    "description": "Binary wrapper for bs-deriving - Type-driven code generation for OCaml and BuckleScript.",
    "license": "MIT",
    "author": "ELLIOTTCABLE <npm@ell.io>",

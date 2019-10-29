@@ -1,4 +1,0 @@
-874c768f84e6d33fbe409276b85b95a33a66bb685686458ea5bfa3acd1124ef5  ppx-deriving-v44.0.0-linux-x64-4.02.3/ppx.exe
-58cf6974d0776079ce94295615fa0a85adfd49fc378ec5e0a86a59d43e07899a  ppx-deriving-v44.0.0-linux-x64-4.06.1/ppx.exe
-7919cc5e0a825361fb064504362027d1b05bc88883d5a8a35d2c743b961fb68d  ppx-deriving-v44.0.0-darwin-x64-4.02.3/ppx.exe
-5435fe46fb91737c398175ca77127a4f6d26a86c8cb3b763befdcd30dc4fade1  ppx-deriving-v44.0.0-darwin-x64-4.06.1/ppx.exe
